@@ -33,6 +33,13 @@ template<class T>
 class RBTree
 {
 public:
+	template<class T>
+	class iterator
+	{
+	private:
+		RBNode<T>* 
+	};
+public:
 	RBTree() : NUL(ByeNode())
 	{
 		NUL->leftchild = NUL->rightchild = NUL->parent = nullptr;
